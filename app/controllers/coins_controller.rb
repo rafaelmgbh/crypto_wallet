@@ -35,6 +35,7 @@ class CoinsController < ApplicationController
     end
   end
 
+
   # PATCH/PUT /coins/1 or /coins/1.json
   def update
     respond_to do |format|
