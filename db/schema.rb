@@ -10,12 +10,21 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20230220130413) do
+ActiveRecord::Schema.define(version: 20230221181358) do
 
   create_table "coins", force: :cascade do |t|
     t.string   "description"
     t.string   "acronym"
     t.string   "url_image"
+    t.datetime "created_at",     null: false
+    t.datetime "updated_at",     null: false
+    t.integer  "mining_type_id"
+    t.index ["mining_type_id"], name: "index_coins_on_mining_type_id"
+  end
+
+  create_table "mining_types", force: :cascade do |t|
+    t.string   "description"
+    t.string   "acronym"
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
   end
