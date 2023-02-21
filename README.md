@@ -1,25 +1,26 @@
-# README
+# Crypto Wallet
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Este é um projeto de estudo de Ruby on Rails que implementa uma carteira de criptomoedas.
 
-Things you may want to cover:
+## Funcionalidades
 
-* Ruby version
+    Cadastro de criptomoedas
+    Cadastro de tipos de mineração
+    Visualização de criptomoedas cadastradas
+    Edição de criptomoedas cadastradas
+    Exclusão de criptomoedas cadastradas
 
-* System dependencies
+## Tecnologias utilizadas
 
-* Configuration
+    Ruby on Rails
+    PostgreSQL
+    Bootstrap
+    jQuery
 
-* Database creation
+## Pré-requisitos
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# crypto_wallet
+    Ruby 2.7.2
+    Rails 6.1.3
+    PostgreSQL 12.7
+    Node.js 14.15.4
+    Yarn 1.22.10
