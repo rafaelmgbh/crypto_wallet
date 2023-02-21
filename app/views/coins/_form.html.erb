@@ -27,6 +27,11 @@
     <%= f.text_field :url_image %>
   </div>
 
+  <div class="field">
+    <%= f.label :mining_type_id %>
+    <%= f.select("mining_type_id", @mining_type_options, {include_blank: 'Selecione ...'}) %>
+  </div>
+
   <div class="actions">
     <%= f.submit %>
   </div>
