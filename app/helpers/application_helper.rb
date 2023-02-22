@@ -10,5 +10,9 @@ module ApplicationHelper
     end
   end
 
+  def locale(locale)
+    I18n.locale = locale
+  end
+
 
 end
